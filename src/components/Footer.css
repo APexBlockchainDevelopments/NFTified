@@ -1,0 +1,20 @@
+.footer-main{
+    display: inline-flex;
+    width: 95vw;
+    margin: auto;
+}
+
+
+
+@media (max-width: 1000px) {
+    .footer-main{
+        font-size: 0.6rem;
+    }
+    
+    .text-left{
+        text-align: center;
+        margin: auto;
+    }
+    
+
+}

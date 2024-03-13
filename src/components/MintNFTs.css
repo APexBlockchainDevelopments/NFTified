@@ -1,0 +1,32 @@
+.mint-main{
+    text-align: center;
+}
+
+.view-buttons-container{
+    margin: 50px;
+}
+
+.mint-main input{
+    width: 50vw;
+}
+
+.mint-main button{
+    width: 50vw;
+}
+
+.email-container{
+    width: 50vw;
+    margin: auto;
+    vertical-align: auto;
+}
+
+.email-container input{
+    width: 20px;
+    height:20px;
+    vertical-align: auto;
+}
+
+.email-container label {
+    font-size: 20px;
+    vertical-align: auto;
+}

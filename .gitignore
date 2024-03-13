@@ -1,0 +1,8 @@
+build/*
+migrations/*
+node_modules/*
+
+
+# Dotenv file
+.env
+MakeFile

@@ -1,0 +1,58 @@
+{
+  "name": "nftified",
+  "version": "6.1.1",
+  "description": "NFTified.org",
+  "author": "APex Developments",
+  "homepage": "https://nftified.org/",
+  "dependencies": {
+    "@thetalabs/theta-drop-connect": "^0.0.10",
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.3.1",
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "@zalando/oauth2-client-js": "^0.0.18",
+    "axios": "^0.27.2",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "babel-preset-stage-3": "6.24.1",
+    "babel-register": "6.26.0",
+    "bootstrap": "4.3.1",
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "chai-bignumber": "3.0.0",
+    "identicon.js": "^2.3.3",
+    "ipfs-http-client": "^50.0.0",
+    "react": "^16.8.4",
+    "react-bootstrap": "1.0.0-beta.5",
+    "react-device-detect": "^2.2.2",
+    "react-dom": "16.8.4",
+    "react-ga": "^3.3.0",
+    "react-google-recaptcha": "^2.1.0",
+    "react-particles-js": "^3.5.3",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "2.1.3",
+    "react-tsparticles": "^1.31.2",
+    "solc": "^0.8.6",
+    "truffle": "^5.1.39",
+    "typescript": "^4.3.5",
+    "web3": "1.2.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

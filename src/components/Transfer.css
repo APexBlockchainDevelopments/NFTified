@@ -1,0 +1,13 @@
+.transfer-main{
+    text-align: center;
+    margin: auto;
+}
+
+.transfer-main h1{
+    font-weight: 800;
+}
+
+.transfer-form-container{
+    margin: auto;
+    width: 50vw;
+}

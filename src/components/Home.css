@@ -1,0 +1,91 @@
+.home {
+    max-width: 100%;
+    text-align: center;
+}
+
+.home-topbar {
+    max-width: 90vw;
+}
+
+.home-topbar button{
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    width: 10vw;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.home-topbar a {
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.home-topbar a :hover {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.home-main {
+    display: inline-flex;
+    width: 100vw;
+    max-width: 100%;
+}
+
+.home-left {
+    width: 50vw;
+    max-width: 50vw;
+}
+
+.home-left h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    font-weight: 900;
+}
+
+.home-left button {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    border-color: rgba(255, 255, 255, 1);
+    border-width: 3px;
+    width: 30vw;
+    height: 8vh;
+    font-size: 2vw;
+    font-weight: 700;
+    margin-top: 2.5vh;
+}
+
+.home-right {
+    display: block;
+    width: 50vw;
+    max-width: 50vw;
+}
+
+.home-right img{
+    width:35vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: none;
+}
+
+.home-footer-container {
+    margin-top: 200px;
+    margin: auto;
+}
+
+@media (max-width: 1000px) {
+    .home-topbar button{
+        width: 4rem;
+        font-size: 1rem;
+        font-weight: 700;
+    } 
+
+    .home-main {
+    }
+
+    .home-left button {
+        height: 8vh;
+    }
+
+}

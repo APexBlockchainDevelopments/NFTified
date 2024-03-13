@@ -1,0 +1,17 @@
+.app-main {
+    background: #FCF0FD;
+    background: -webkit-linear-gradient(bottom, #FCF0FD, #c1ffff);
+    background: -moz-linear-gradient(bottom, #FCF0FD, #c1ffff);
+    background: linear-gradient(to top, #FCF0FD, #c1ffff);
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 1);
+}
+
+
+
+@media (pointer:none), (pointer:coarse) {
+    .app-main{
+       
+      }
+}

@@ -1,0 +1,87 @@
+.verify-main{
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.verify-title{
+    max-width: 80vw;
+    text-align: center;
+    margin: auto;
+}
+
+.verify-title h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.verify-form{
+}
+
+.verify-result{
+    margin:auto;
+    text-align: center;
+    max-width: 70vw;
+}
+
+input{
+    text-align: center;
+    margin:5px
+}
+
+select{
+    margin-top: 20px;
+}
+
+label{
+    margin: 5px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+input {
+    font-size: 14px;
+    width:20vw;
+    height: 3vh;
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    border-color: rgba(255, 255, 255, 1);
+    border-width: 3px;
+    width: 15vw;
+    height: 5vh;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.verify-result p{
+    margin: auto;
+    text-align: center;
+    max-width: 50vw;
+}
+
+@media (max-width: 1000px) {
+    .verify-title h1{
+        font-size: 2.5rem;
+    }
+
+    input {
+        font-size: 14px;
+        width:80vw;
+        height: 3vh;
+    }
+
+    button{
+        width: 80vw;
+    }
+
+    .verify-result h2{
+        font-size: 3vw;
+        text-align: center;
+    }
+    
+
+}

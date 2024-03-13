@@ -1,0 +1,24 @@
+.about-main{
+    margin: auto;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.about-text{
+    margin: auto;
+    padding-top: 3rem;
+    width:60vw;
+    font-size: 24px;
+}
+
+a{
+    color: black;
+}
+
+img{
+    width: 20vw;
+}
+
+.about-footer-container{
+    padding-top: 4rem;
+}

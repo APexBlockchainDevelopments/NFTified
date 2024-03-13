@@ -1,0 +1,30 @@
+.ipfs-upload-home{
+    text-align: center;
+    margin: auto;
+}
+
+.ipfs-upload-home h1{
+    font-weight: 900;
+}
+
+.ipfs-upload-home input{
+    text-align: center;
+    height: 3rem;
+}
+
+.ipfs-upload-home button{
+    height: 4rem;
+    width: 40vw;
+}
+
+.IPFS-captcha{
+    text-align: center;
+    margin: auto;
+    width: 304px;
+}
+
+.captcha-container{
+    text-align: center;
+    margin: auto;
+    width: 304px;
+}
