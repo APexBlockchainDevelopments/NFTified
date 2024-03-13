@@ -1,6 +1,7 @@
 build/*
 migrations/*
 node_modules/*
+truffle-config.js
 
 
 # Dotenv file

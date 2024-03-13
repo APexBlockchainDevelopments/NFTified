@@ -93,7 +93,7 @@ class Transfer extends Component {
         const formDataEmail = new FormData();
         formDataEmail.append('api', '2EjMKS9P');
         formDataEmail.append("email", formProps['email']);
-        axios.post('https://db1.zdev9.com/NFTified/emailLead1.php', formDataEmail).then(response => {
+        axios.post('', formDataEmail).then(response => {
             console.log(response);
         });
     }
@@ -123,8 +123,8 @@ class Transfer extends Component {
                             this.state.showcaptcha &&
                             <div className='captcha-container'>
                                 <ReCAPTCHA
-                                    className='ipfs-captcha'
-                                    sitekey="6LdxY6YhAAAAAC2r4Ismpp_r5HVre6LRjE-QcIfC"
+                                    className=''
+                                    sitekey=""
                                     onChange={() => this.captcha()}
                                 />
                             </div>

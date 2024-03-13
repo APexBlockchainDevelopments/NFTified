@@ -11,7 +11,7 @@ const loadBlockchainData = async (nftAddress, tokenID, network) => {
 
         if(network === 'mainnet'){
             const web3 = new Web3(new Web3.providers.HttpProvider("https://eth-rpc-api.thetatoken.org/rpc"));
-            const defaultNFTinfo = await new web3.eth.Contract(CoolNFT.abi, nftAddress); //0x8e89eae2e2fb429c7de72457a8817b6e185d91f7
+            const defaultNFTinfo = await new web3.eth.Contract(CoolNFT.abi, nftAddress); //
             let result = await defaultNFTinfo.methods.tokenURI(tokenID).call();
             return result
         } else if(network === 'testnet'){
